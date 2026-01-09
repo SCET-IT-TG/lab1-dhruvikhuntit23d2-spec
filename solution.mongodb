@@ -1,64 +1,65 @@
 db = db.getSiblingDB("examDB");
-
+//exe-1
 db.students.insertOne({
-  name: "Student A",
+  name: "Dhruvi Khunt",
   department: "IT",
   semester: 4
 })
 
 db.students.insertOne({
-  name: "Student B",
-  department: "CE",
+  name: "Nency Khunt",
+  department: "IT",
   semester: 5
 })
-
+//exe-2
 db.students.insertOne({
-  name: "Student C",
+  name: "Hitakshi Mavani",
   department: "IT",
   semester: 6,
-  mobile: "9999999999"
+  mobile: "123456889"
 })
-
+//exe-3
 db.subjects.insertOne({
   course_name: "IT",
-  subject_list: ["DBMS", "OS", "CN"]
+  subject_list: ["EO", "DMBI", "IOE"]
 })
-
+//exe-4
 db.faculty.insertOne({
   department: "IT",
   teachers: [
-    { name: "Teacher1", experience: 5 },
-    { name: "Teacher2", experience: 6 }
+    { name: "MD Khunt", experience: 5 },
+    { name: "DR Khunt", experience: 6 }
   ]
 })
-
+//exe-5
 db.students.insertOne({
   _id: ObjectId(),
-  name: "Student D",
+  name: "Prit Khunt",
   department: "Civil",
   semester: 6
 })
-
+//exe-6
 db.students.insertOne({
   _id: ObjectId("64abc123456789abcdef0001"),
-  name: "Student E"
+  name: "Manthan Khunt",
+  department: "Civil",
+  semester: 3
 })
-
+//exe-7
 db.students.insert({
-  name: "Student F",
+  name: "Mantra Khunt",
   department: "Mechanical",
   semester: 5
 })
 
 db.students.insert({
-  name: "Student G",
+  name: "Aarohi Khunt",
   department: "Electrical",
   semester: 7
 })
 
 db.students.insert({
-  name: "Student H",
+  name: "Raksh Khunt",
   department: "AI",
   semester: 8
 })
-
