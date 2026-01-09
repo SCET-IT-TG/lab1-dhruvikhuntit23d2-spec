@@ -1,16 +1,13 @@
-
+use examDB
 
 db.students.insertOne({
-  name:"dhruvi khunt",
-  department:"IT",
-  semester:4
-  mobile:"999999999"
+  name: "Student1",
+  department: "IT",
+  semester: 4
 })
 
 db.students.insertOne({
-  name:"nency khunt",
-  department:"IT",
-  semester:5
-   mobile:"999999999"
+  name: "Student2",
+  department: "CS",
+  semester: 5
 })
-
