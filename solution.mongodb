@@ -11,3 +11,53 @@ db.students.insertOne({
   department: "CS",
   semester: 5
 })
+
+db.students.insertOne({
+  name: "Student3",
+  department: "IT",
+  semester: 6,
+  mobile: "9876543210"
+})
+
+db.subjects.insertOne({
+  course_name: "IT",
+  subject_list: ["DBMS", "OS", "CN"]
+})
+
+db.faculty.insertOne({
+  department: "IT",
+  teachers: [
+    { name: "Teacher1", experience: 5 },
+    { name: "Teacher2", experience: 6 }
+  ]
+})
+
+db.students.insertOne({
+  _id: ObjectId(),
+  name: "Student4",
+  department: "Civil",
+  semester: 6
+})
+
+db.students.insertOne({
+  _id: ObjectId("64abc123456789abcdef0001"),
+  name: "Student5"
+})
+
+db.students.insert({
+  name: "Student6",
+  department: "Mechanical",
+  semester: 5
+})
+
+db.students.insert({
+  name: "Student7",
+  department: "Electrical",
+  semester: 7
+})
+
+db.students.insert({
+  name: "Student8",
+  department: "AI",
+  semester: 8
+})
