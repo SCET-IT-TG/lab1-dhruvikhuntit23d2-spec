@@ -1,22 +1,22 @@
 use examDB
 
 db.students.insertOne({
-  name: "Student1",
+  name: "Student A",
   department: "IT",
   semester: 4
 })
 
 db.students.insertOne({
-  name: "Student2",
-  department: "CS",
+  name: "Student B",
+  department: "CE",
   semester: 5
 })
 
 db.students.insertOne({
-  name: "Student3",
+  name: "Student C",
   department: "IT",
   semester: 6,
-  mobile: "9876543210"
+  mobile: "9999999999"
 })
 
 db.subjects.insertOne({
@@ -34,30 +34,30 @@ db.faculty.insertOne({
 
 db.students.insertOne({
   _id: ObjectId(),
-  name: "Student4",
+  name: "Student D",
   department: "Civil",
   semester: 6
 })
 
 db.students.insertOne({
   _id: ObjectId("64abc123456789abcdef0001"),
-  name: "Student5"
+  name: "Student E"
 })
 
 db.students.insert({
-  name: "Student6",
+  name: "Student F",
   department: "Mechanical",
   semester: 5
 })
 
 db.students.insert({
-  name: "Student7",
+  name: "Student G",
   department: "Electrical",
   semester: 7
 })
 
 db.students.insert({
-  name: "Student8",
+  name: "Student H",
   department: "AI",
   semester: 8
 })
