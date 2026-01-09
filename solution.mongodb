@@ -3,6 +3,7 @@ mongosh
 use examDB
 db.students.insertOne({ name:"dhruvi khunt",div:"A",mobilenumber:1234567890})
 db.students.insertOne({ name:"nency khunt",div:"A",mobilenumber:1134567890})
+db.students.insertOne({ name:"krish khunt",div:"A",mobilenumber:1134567890})
 
 //exe-2
 db.students.insertOne({name:"hitakshi mavani",department:"it",semester:6,mobile:123456889})
@@ -30,3 +31,4 @@ MongoServerError: E11000 duplicate key error collection: examDB.students index: 
 db.students.insert({ name:"mantra khunt" ,depa:"mechanical",sem:"5"})
 db.students.insert({ name:"aarohi khunt" ,depa:"electrice",sem:"7"})
 db.students.insert({ name:"raksh khunt" ,depa:"artificiale intellegence",sem:"8"})
+
