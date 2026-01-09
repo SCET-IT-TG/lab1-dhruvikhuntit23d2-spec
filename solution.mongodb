@@ -1,4 +1,4 @@
-use examDB
+db = db.getSiblingDB("examDB");
 
 db.students.insertOne({
   name: "Student A",
@@ -61,3 +61,4 @@ db.students.insert({
   department: "AI",
   semester: 8
 })
+
