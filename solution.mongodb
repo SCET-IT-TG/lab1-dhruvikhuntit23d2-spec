@@ -1,14 +1,16 @@
-mongosh
-use examDB
+
 
 db.students.insertOne({
   name:"dhruvi khunt",
   department:"IT",
   semester:4
+  mobile:"999999999"
 })
 
 db.students.insertOne({
   name:"nency khunt",
   department:"IT",
   semester:5
+   mobile:"999999999"
 })
+
