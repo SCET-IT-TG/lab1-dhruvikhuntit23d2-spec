@@ -1,2 +1,32 @@
-HELLO
+//exe-1
+mongosh
+use examDB
+db.students.insertOne({ name:"dhruvi khunt",div:"A",mobilenumber:1234567890})
+db.students.insertOne({ name:"nency khunt",div:"A",mobilenumber:1134567890})
 
+//exe-2
+db.students.insertOne({name:"hitakshi mavani",department:"it",semester:6,mobile:123456889})
+db.students.insertOne({name:"deep davara",department:"it",semester:6,mobile:124456889})
+
+//exe-3
+db.subjects.insertOne({course_name:"IT",subject_list:["eo","dmbi","ioe","toe","os"]})
+
+//exe-4
+
+db.faculty.insertOne({dep_name:"IT",teacher:
+					[{ name:"md khunt",experience:5},
+					 {name:"dr khunt",experience:6}]
+		     })
+
+//exe-5
+db.students.insertOne({_id:ObjectId(),name:"prit khunt",depat:"civil",sem:6})
+
+//exe-6
+db.students.insertOne({_id:ObjectId("6961039739e25d682b1e2630"),name:"manthan khunt",depat:"civil",sem:3})
+db.students.insertOne({_id:ObjectId("6961039739e25d682b1e2630"),name:"krisha khunt",depat:"civil",sem:3})
+MongoServerError: E11000 duplicate key error collection: examDB.students index: _id_ dup key: { _id: ObjectId('6961039739e25d682b1e2630') }
+
+//exe-7
+db.students.insert({ name:"mantra khunt" ,depa:"mechanical",sem:"5"})
+db.students.insert({ name:"aarohi khunt" ,depa:"electrice",sem:"7"})
+db.students.insert({ name:"raksh khunt" ,depa:"artificiale intellegence",sem:"8"})
