@@ -16,7 +16,7 @@ db.students.insertOne({
   name: "Hitakshi Mavani",
   department: "IT",
   semester: 6,
-  mobile: "123456889"
+  mobile: 123456889
 })
 //exe-3
 db.subjects.insertOne({
@@ -63,3 +63,4 @@ db.students.insert({
   department: "AI",
   semester: 8
 })
+
