@@ -18,6 +18,13 @@ db.students.insertOne({
   semester: 6,
   mobile: 123456889
 })
+db.students.insertOne({
+  name: "Deep Davara",
+  department: "IT",
+  semester: 6,
+  mobile: 9876543210
+});
+
 //exe-3
 db.subjects.insertOne({
   course_name: "IT",
@@ -63,4 +70,5 @@ db.students.insert({
   department: "AI",
   semester: 8
 })
+
 
