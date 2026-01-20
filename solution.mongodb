@@ -57,7 +57,8 @@ db.students.insertOne({
   _id: ObjectId(),
   name: "Prit Khunt",
   department: "Civil",
-  semester: 6
+  semester: 6,
+  mobile:123456788
 })
 //exe-6
 db.students.insertOne({
@@ -65,29 +66,30 @@ db.students.insertOne({
   name: "Manthan Khunt",
   department: "Civil",
   semester: 3,
-mobile: 123456885
+  mobile: 123456885
 })
 //exe-7
 db.students.insert({
   name: "Mantra Khunt",
   department: "Mechanical",
   semester: 5,
-mobile: 123456882
+  mobile: 123456882
 })
 
 db.students.insert({
   name: "Aarohi Khunt",
   department: "Electrical",
   semester: 7,
-mobile: 123456883
+  mobile: 123456883
 })
 
 db.students.insert({
   name: "Raksh Khunt",
   department: "AI",
   semester: 8,
-mobile: 123456881
+  mobile: 123456881
 })
+
 
 
 
