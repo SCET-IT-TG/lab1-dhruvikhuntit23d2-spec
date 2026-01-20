@@ -48,8 +48,8 @@ db.subjects.insertOne({
 db.faculty.insertOne({
   department: "IT",
   teachers: [
-    { name: "MD Khunt", experience: 5,semester: 6, mobile: 123456689 },
-    { name: "DR Khunt", experience: 6 ,semester: 6,mobile: 123456589}
+    { name: "MD Khunt", experience: 5,semester: 6, mobile: 123456689,department: "IT", },
+    { name: "DR Khunt", experience: 6 ,semester: 6,mobile: 123456589,department: "IT",}
   ]
 })
 //exe-5
@@ -88,6 +88,7 @@ db.students.insert({
   semester: 8,
 mobile: 123456881
 })
+
 
 
 
