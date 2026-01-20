@@ -48,8 +48,8 @@ db.subjects.insertOne({
 db.faculty.insertOne({
   department: "IT",
   teachers: [
-    { name: "MD Khunt", experience: 5 },
-    { name: "DR Khunt", experience: 6 }
+    { name: "MD Khunt", experience: 5,semester: 6, mobile: 123456689 },
+    { name: "DR Khunt", experience: 6 ,semester: 6,mobile: 123456589}
   ]
 })
 //exe-5
@@ -64,26 +64,31 @@ db.students.insertOne({
   _id: ObjectId("64abc123456789abcdef0001"),
   name: "Manthan Khunt",
   department: "Civil",
-  semester: 3
+  semester: 3,
+mobile: 123456885
 })
 //exe-7
 db.students.insert({
   name: "Mantra Khunt",
   department: "Mechanical",
-  semester: 5
+  semester: 5,
+mobile: 123456882
 })
 
 db.students.insert({
   name: "Aarohi Khunt",
   department: "Electrical",
-  semester: 7
+  semester: 7,
+mobile: 123456883
 })
 
 db.students.insert({
   name: "Raksh Khunt",
   department: "AI",
-  semester: 8
+  semester: 8,
+mobile: 123456881
 })
+
 
 
 
